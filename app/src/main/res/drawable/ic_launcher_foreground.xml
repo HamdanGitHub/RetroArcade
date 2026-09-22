@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- RetroArcade launcher icon foreground — neon green rocket -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Rocket body -->
+    <path
+        android:fillColor="#39FF14"
+        android:pathData="M54,18 C54,18 42,32 42,52 L42,66 L66,66 L66,52 C66,32 54,18 54,18 Z" />
+
+    <!-- Rocket nose cone (brighter tip) -->
+    <path
+        android:fillColor="#80FF5C"
+        android:pathData="M54,18 C54,18 48,28 48,36 L60,36 C60,28 54,18 54,18 Z" />
+
+    <!-- Left fin -->
+    <path
+        android:fillColor="#1DB510"
+        android:pathData="M42,58 L34,70 L42,66 Z" />
+
+    <!-- Right fin -->
+    <path
+        android:fillColor="#1DB510"
+        android:pathData="M66,58 L74,70 L66,66 Z" />
+
+    <!-- Rocket window -->
+    <path
+        android:fillColor="#0D0D1A"
+        android:pathData="M54,46m-6,0a6,6 0 1,0 12,0a6,6 0 1,0 -12,0" />
+    <path
+        android:fillColor="#39FF14"
+        android:pathData="M54,46m-3,0a3,3 0 1,0 6,0a3,3 0 1,0 -6,0" />
+
+    <!-- Exhaust flame -->
+    <path
+        android:fillColor="#FF8C00"
+        android:pathData="M48,66 L44,78 L54,72 L64,78 L60,66 Z" />
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M50,66 L47,74 L54,70 L61,74 L58,66 Z" />
+
+    <!-- Star decorations -->
+    <path
+        android:fillColor="#39FF14"
+        android:pathData="M26,32 L27.2,35.6 L31,35.6 L28,37.8 L29.2,41.4 L26,39.2 L22.8,41.4 L24,37.8 L21,35.6 L24.8,35.6 Z" />
+    <path
+        android:fillColor="#39FF14"
+        android:pathData="M82,28 L83,31 L86,31 L83.5,32.8 L84.5,35.8 L82,34 L79.5,35.8 L80.5,32.8 L78,31 L81,31 Z" />
+
+</vector>
